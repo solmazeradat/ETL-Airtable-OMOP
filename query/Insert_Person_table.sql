@@ -1,4 +1,4 @@
-DELETE FROM person;		-- Changed truncate to DELETE
+DELETE FROM person;									-- Changed truncate to DELETE
 
 INSERT INTO person (
 			person_id,
@@ -27,7 +27,7 @@ SELECT
 		when 'F' then 8532
 	end as gender_concept_id,
 	strftime('%Y', p.birthdate) as year_of_birth,		-- Change date_part to strftime
-	strftime('%m', p.birthdate) as month_of_birth,	-- Change date_part to strftime
+	strftime('%m', p.birthdate) as month_of_birth,		-- Change date_part to strftime
 	strftime('%d', p.birthdate) as day_of_birth,		-- Change date_part to strftime
 	p.birthdate as birth_datetime,
 	case upper(p.race)
