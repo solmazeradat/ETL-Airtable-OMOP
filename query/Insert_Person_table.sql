@@ -1,4 +1,4 @@
-DELETE FROM person;									-- Changed truncate to DELETE
+DELETE FROM person;				-- Changed truncate to DELETE
 
 INSERT INTO person (
 			person_id,
