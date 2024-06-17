@@ -36,9 +36,9 @@ python3 -m venv airtable-env
 ```
 source airtable-env/bin/activate
 ```
-4. Install ``ipykernel`` by running
+4. In your virtual environment, install required dependencies as follows:
 ```
-pip3 install ipykernel
+pip3 install -r requirements.txt
 ```
 5.Create a new kernal by running
 ```
