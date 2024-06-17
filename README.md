@@ -6,14 +6,14 @@ The purpose of this Python Jupyter notebook to convert a subset of the Synthea d
 - The video to the presentation can be found [to be added after the 20th July ](here)
 
 # Development Setup 
-Before running the Python notebook, the follwoing prerequisities need to be setup:
+Before running the Python notebook, the following prerequisites need to be setup:
 
-## Prerequisities 
+## Prerequisites  
 
 ### Airtable 
 - The test dataset for this project can be found under under [patients](https://github.com/OHDSI/Tutorial-ETL/blob/master/data/syntheaRaw/patients.csv). Using the ``Add or import`` function in Airtable, the dataset can be added and data types can be changed.
-- The test script which was adapted to trasfom the dataset can be found under [Insert_Person](https://github.com/OHDSI/Tutorial-ETL/blob/master/materials/Implementation/Insert_Person_Lauren.sql).
-- To placeholder for the [Person](https://ohdsi.github.io/CommonDataModel/cdm54.html#person) table can be added ready to be populated with the transfomed data.
+- The test script which was adapted to transform the dataset can be found under [Insert_Person](https://github.com/OHDSI/Tutorial-ETL/blob/master/materials/Implementation/Insert_Person_Lauren.sql).
+- To placeholder for the [Person](https://ohdsi.github.io/CommonDataModel/cdm54.html#person) table can be added ready to be populated with the transformed data.
 
 This project used Airtable API to interact with your Airtable bases. 
 
@@ -40,13 +40,13 @@ source airtable-env/bin/activate
 ```
 pip3 install -r requirements.txt
 ```
-5.Create a new kernal by running
+5. Create a new kernel by running
 ```
 # That would create a kernel named 'airtable-etl'
 python3 -m ipykernel install --user --name=airtable-etl
 ```
-6. Select the created kernal ``airtable-etl`` from the top right hand corner of Vscode. Alternatley,To choose your kernel in Vscode
+6. Select the created kernel ``airtable-etl`` from the top right hand corner of Vscode. Alternately, to choose your kernel in Vscode
 
 - Open the Vscode search bar: cmd+shift+p.
-- Type in the word ``kernal`` & choose: “Notebook: Select Notebook Kernel”.
-- Select the kernal ``airtable-etl``
+- Type in the word ``kernel`` & choose: “Notebook: Select Notebook Kernel”.
+- Select the kernel ``airtable-etl``
