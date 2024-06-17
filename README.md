@@ -24,3 +24,29 @@ This project used Airtable API to interact with your Airtable bases.
 - **RESTful API:** Airtable uses a RESTful API architecture. This means you interact with your data using standard HTTP verbs like GET (retrieve data), POST (create records), PUT (update records), and DELETE (delete records).
 
 ### Python & VS code
+- It is recommended to use [VS Code](https://code.visualstudio.com/) as your IDE for developing this project.
+
+**Repo Setup**
+1. Clone this repository to your machine
+2. ``cd`` into the repo directory and set up a virtual environment:
+```
+python3 -m venv airtable-env
+```
+3. Now activate the virtual environment by running
+```
+source airtable-env/bin/activate
+```
+4. Install ``ipykernel`` by running
+```
+pip3 install ipykernel
+```
+5.Create a new kernal by running
+```
+# That would create a kernel named 'airtable-etl'
+python3 -m ipykernel install --user --name=airtable-etl
+```
+6. Select the created kernal ``airtable-etl`` from the top right hand corner of Vscode. Alternatley,To choose your kernel in Vscode
+
+- Open the Vscode search bar: cmd+shift+p.
+- Type in the word ``kernal`` & choose: “Notebook: Select Notebook Kernel”.
+- Select the kernal ``airtable-etl``
