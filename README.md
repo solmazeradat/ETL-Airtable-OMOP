@@ -9,6 +9,7 @@ The purpose of this Python Jupyter notebook to convert a subset of the Synthea d
 Before running the Python notebook, the following prerequisites need to be setup:
 
 ## Prerequisites  
+You will need to setup an [Airtable](https://airtable.com/) account before going through this project. I would recommend using the free version and upgrade if needed! 
 
 ### Airtable 
 - The test dataset for this project can be found under under [patients](https://github.com/OHDSI/Tutorial-ETL/blob/master/data/syntheaRaw/patients.csv). Using the ``Add or import`` function in Airtable, the dataset can be added and data types can be changed.
